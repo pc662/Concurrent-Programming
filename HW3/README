@@ -1,0 +1,25 @@
+1. Peter Chong   pc662@drexel.edu
+
+2. You can do:
+    make run
+   to compile the code and run 3 races in succession with 2, 4, and 10 threads respectively.
+    make
+   will just compile the code for manual usage.
+
+3. I only used two semaphores since we only really needed 2 for this assignment. I used one for the game master and one for the racers. The gameMaster semaphore locks the queue
+when it is being used by both the game master and racers. The racer semaphore is there  simply to signal to the racers if there is data or still is data in the queue to start
+collecting the dice rolls to move spaces.
+
+4. I used a lock guard when it came to printing to the console so basically each print statement that was used to print out the move spaces and leaving the gate were transferred over
+to functions that were locked. This served to not have the threads interleaving and overwriting themselves in the console.
+
+5. I am certain that the program can never deadlock because the way my signals and waits are positioned are correct. In my processData function for the racers, in the while loop,
+it is always waiting FIRST to see if there is any data available in the queue. If not, it sleeps. If there is, it locks the queue and starts to collect data. The producer
+simply creates data outside of the queue first, and after it's done that, it locks the queue and adds in the data, and then releases and signals to the racers that there is data.
+
+6. I am certain that threads cannot be starved in this program because each thread runs the same function. Usually, when a deadlock happens, starvation also occurs. However, since
+I am also certain that a deadlock won't happen, it is unlikely starvation will occur as well.
+
+7. This assignment was fairly straightforward and relaxing. I'm not the best when it comes to logical thinking but I am pretty decent at interpretting pseudocode and translating.
+The part that gave me the most trouble was passing the semaphores through the threads and getting it to work. I eventually found out that I had to pass the pointer and change any
+method calls from . to ->. 
