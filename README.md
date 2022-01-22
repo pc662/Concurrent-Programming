@@ -18,3 +18,5 @@ could not be initialized. Created a vector instead.
 
 The third assignment has proven to be the easiest of the three. I do better with interpretation than with logic it seems. It was nice being able to not struggle too long with a HW assignment.
 
+The fourth assignment was of a medium difficulty. The first implementation I tried suffered from a race condition but the final product was something I was pretty satisfied with.
+
