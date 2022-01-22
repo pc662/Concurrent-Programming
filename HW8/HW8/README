@@ -1,0 +1,33 @@
+HOW TO RUN:
+    Required:
+        Have a file to be read for insertion and a file to be read for deletion
+    
+    Do "make run i="insertNumbers" d="deleteNumbers" " to compile and run the program.
+
+    You are also able to manually export doing "export i="insertNumbers" && export d="deleteNumbers"".
+
+    Note: the file names for i and d do not have to be exactly the same name as insertNumbers and deleteNumbers.
+
+
+
+1. In a non thread-safe BST, what fails is the insertion and deletion. With insertion, if more than one thread tries to insert a value at the same time, the pointers can get
+messed up due to context switching. Some values won't even make it into the BST because those nodes can get overwritten by another thread trying to insert their node into the BST at
+the same time. When it comes to deleting a node, having more than one thread trying to delete a node at the same time can result in the wrong node being deleted and pointers being
+messed up as well. As a result, everything goes haywire and deleting does not go as planned.
+
+2. I designed my BST in a way where there is a temporary current pointer and a root pointer. My helper functions which are part of the implementation return a type node so that 
+the pointers are traced back and assigned to the nodes, intead of just being called and created. My design is basically just node based and based around node creation and pointing. 
+In regards to thread safety, I placed a lock guard in the insert and deletion methods.
+
+3. The disadvantage of my implementation is that it is not true concurrency. Each thread basically takes its turn inserting or deleting a node into the BST due to there being a 
+lockguard in both functions. It is similar in performance to just a single threaded application, or maybe even slower performing than a regular single threaded application. Each
+operation is on the same level or worse than a regular application.
+
+4. I could have locked the BST in a way that locked each subsection as the insert function or delete function traversed down the tree. The lock would keep the potential leaves and
+nodes locked, while also unlocking the nodes left behind so that other subsequent inserts could go ahead. This way, it would definitely improve performance with more threads
+being added. The only downside is that the implementation may be a bit too complicated. I could see maybe that each node could have its own lock, but I wasn't too sure on
+how I could implement such a thing.
+
+5. Making search in the BST concurrent definitely would help with the performance in a theoretical and technical standpoint. Search in a BST does not modify anything at all, so
+searching can be concurrent with as many threads as possible and there would be no context switching. The only issue is with inserting and deleting. If insertion and deletion are 
+happening while a thread is searching, it could mess the search function up and return a false positive when the value has already been deleted, or if a node has just been inserted.

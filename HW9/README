@@ -1,0 +1,25 @@
+1. Peter Chong    pc662
+
+2. To compile and run, simply do "make"
+   Then, do "./search [string to be searched] [directory to search in recursively]"
+
+3. I used a queue to store the file paths that matched the correct extensions. I used a class for the threadpool to make the main more tidier and neater. I could have implemented a 
+similar and simpler threadpool in the main, but that would be a lot of messy code. That is why I opted for a threadpool class. It also offers a lot more flexibility and adaptability.
+
+4. The threadpool gets its tasks from pulling file paths from the queue of tasks that have been added by the producer (main) thread. It then takes this file path and parses it with
+a function in the threadpool class to see which lines, if any, contain the specified string.
+
+5. The threadpool knows that it has finished all of its tasks when the task queue is empty. When the task queue is empty, that means that there are no more file paths that were found.
+I did not make the producer run concurrent with the parser threads since finding files is significantly faster than parsing them, so I did not make that a priority.
+
+6. I used unique_locks. The unique_locks were to lock the current scope and to be provided for the condition variables. It was also to lock the console
+output so that lines weren't being overlapped. I also wanted to use lock_guard to lock the queue of tasks when they were being added. This wasn't really needed, but provides flexibility
+in the future in case more threads were to add things to the queue.
+
+7. The condition variable is there to say that as long as the queue of tasks is not empty, it will keep looping. However, when it is empty, the only thing that can proceed the 
+condition variable forward is that there is a "done" variable. When that is true, it will break and exit the loop, and every thread will follow suit.
+
+Note: I was trying to get the producer and threadpool to run concurrently and I may have been able to, but for some reason, I was never able to figure out why my array of booleans
+were always wrong despite them having to be false, yet some were true randomly here and there.
+
+
