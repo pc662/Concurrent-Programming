@@ -1,0 +1,297 @@
+W1 is foraging on the west side
+W0 is foraging on the west side
+W2 is foraging on the west side
+W3 is foraging on the west side
+W4 is foraging on the west side
+W5 is foraging on the west side
+W6 is foraging on the west side
+W7 is foraging on the west side
+W8 is foraging on the west side
+W8 is done foraging on the west side
+W8 is crossing from the west to the east --->
+W9 is foraging on the west side
+W10 is foraging on the west side
+W11 is foraging on the west side
+E0 is foraging on the east side
+E1 is foraging on the east side
+E2 is foraging on the east side
+E3 is foraging on the east side
+E4 is foraging on the east side
+E5 is foraging on the east side
+E6 is foraging on the east side
+E7 is foraging on the east side
+E8 is foraging on the east side
+E9 is foraging on the east side
+E10 is foraging on the east side
+E11 is foraging on the east side
+E12 is foraging on the east side
+E13 is foraging on the east side
+E14 is foraging on the east side
+E15 is foraging on the east side
+E16 is foraging on the east side
+E17 is foraging on the east side
+E18 is foraging on the east side
+E19 is foraging on the east side
+E19 is done foraging on the east side
+E20 is foraging on the east side
+W11 is done foraging on the west side
+W7 is done foraging on the west side
+E1 is done foraging on the east side
+W8 has made it from the west to the east ->
+W8 is foraging on the east side
+W8 is done foraging on the east side
+W8 is crossing from the east to the west <---
+E1 is crossing from the east to the west <---
+E19 is crossing from the east to the west <---
+E5 is done foraging on the east side
+E14 is done foraging on the east side
+E20 is done foraging on the east side
+E16 is done foraging on the east side
+W3 is done foraging on the west side
+E0 is done foraging on the east side
+E3 is done foraging on the east side
+E2 is done foraging on the east side
+E4 is done foraging on the east side
+W9 is done foraging on the west side
+W5 is done foraging on the west side
+E19 has made it from the east to the west <-
+E19 is foraging on the west side
+E19 is done foraging on the west side
+W8 has made it from the east to the west <-
+W8 has finished all of its tasks and is now napping
+E7 is done foraging on the east side
+E1 has made it from the east to the west <-
+E1 is foraging on the west side
+E1 is done foraging on the west side
+W11 is crossing from the west to the east --->
+W11 has made it from the west to the east ->
+W11 is foraging on the east side
+E14 is crossing from the east to the west <---
+E10 is done foraging on the east side
+E18 is done foraging on the east side
+E13 is done foraging on the east side
+E12 is done foraging on the east side
+E8 is done foraging on the east side
+E17 is done foraging on the east side
+W6 is done foraging on the west side
+W2 is done foraging on the west side
+W0 is done foraging on the west side
+W4 is done foraging on the west side
+W1 is done foraging on the west side
+W10 is done foraging on the west side
+E6 is done foraging on the east side
+E9 is done foraging on the east side
+E14 has made it from the east to the west <-
+E14 is foraging on the west side
+E15 is done foraging on the east side
+W3 is crossing from the west to the east --->
+E11 is done foraging on the east side
+W3 has made it from the west to the east ->
+W3 is foraging on the east side
+W3 is done foraging on the east side
+E10 is crossing from the east to the west <---
+E10 has made it from the east to the west <-
+E10 is foraging on the west side
+E1 is crossing from the west to the east --->
+W11 is done foraging on the east side
+E1 has made it from the west to the east ->
+E1 has finished all of its tasks and is now napping
+E18 is crossing from the east to the west <---
+E5 is crossing from the east to the west <---
+E5 has made it from the east to the west <-
+E15 is crossing from the east to the west <---
+E5 is foraging on the west side
+E14 is done foraging on the west side
+E18 has made it from the east to the west <-
+E18 is foraging on the west side
+E15 has made it from the east to the west <-
+E15 is foraging on the west side
+E19 is crossing from the west to the east --->
+E18 is done foraging on the west side
+E10 is done foraging on the west side
+E5 is done foraging on the west side
+E19 has made it from the west to the east ->
+E19 has finished all of its tasks and is now napping
+W11 is crossing from the east to the west <---
+E9 is crossing from the east to the west <---
+E9 has made it from the east to the west <-
+E9 is foraging on the west side
+W11 has made it from the east to the west <-
+W11 has finished all of its tasks and is now napping
+W2 is crossing from the west to the east --->
+E15 is done foraging on the west side
+W2 has made it from the west to the east ->
+E9 is done foraging on the west side
+W2 is foraging on the east side
+E16 is crossing from the east to the west <---
+E16 has made it from the east to the west <-
+E16 is foraging on the west side
+E0 is crossing from the east to the west <---
+E4 is crossing from the east to the west <---
+E4 has made it from the east to the west <-
+E4 is foraging on the west side
+E16 is done foraging on the west side
+E0 has made it from the east to the west <-
+E0 is foraging on the west side
+E14 is crossing from the west to the east --->
+E14 has made it from the west to the east ->
+E14 has finished all of its tasks and is now napping
+E20 is crossing from the east to the west <---
+W2 is done foraging on the east side
+E4 is done foraging on the west side
+E20 has made it from the east to the west <-
+E20 is foraging on the west side
+W7 is crossing from the west to the east --->
+E0 is done foraging on the west side
+W7 has made it from the west to the east ->
+W7 is foraging on the east side
+W7 is done foraging on the east side
+W3 is crossing from the east to the west <---
+W3 has made it from the east to the west <-
+W3 has finished all of its tasks and is now napping
+E15 is crossing from the west to the east --->
+E15 has made it from the west to the east ->
+E15 has finished all of its tasks and is now napping
+E7 is crossing from the east to the west <---
+E3 is crossing from the east to the west <---
+E7 has made it from the east to the west <-
+E7 is foraging on the west side
+E7 is done foraging on the west side
+E3 has made it from the east to the west <-
+E3 is foraging on the west side
+W10 is crossing from the west to the east --->
+E20 is done foraging on the west side
+E3 is done foraging on the west side
+W10 has made it from the west to the east ->
+W10 is foraging on the east side
+E6 is crossing from the east to the west <---
+E6 has made it from the east to the west <-
+E6 is foraging on the west side
+E18 is crossing from the west to the east --->
+E6 is done foraging on the west side
+E18 has made it from the west to the east ->
+E18 has finished all of its tasks and is now napping
+E6 is crossing from the west to the east --->
+W10 is done foraging on the east side
+E6 has made it from the west to the east ->
+E6 has finished all of its tasks and is now napping
+E3 is crossing from the west to the east --->
+E3 has made it from the west to the east ->
+E3 has finished all of its tasks and is now napping
+E7 is crossing from the west to the east --->
+E7 has made it from the west to the east ->
+E7 has finished all of its tasks and is now napping
+E5 is crossing from the west to the east --->
+E5 has made it from the west to the east ->
+E5 has finished all of its tasks and is now napping
+E2 is crossing from the east to the west <---
+E2 has made it from the east to the west <-
+E2 is foraging on the west side
+W9 is crossing from the west to the east --->
+W9 has made it from the west to the east ->
+W9 is foraging on the east side
+W2 is crossing from the east to the west <---
+E2 is done foraging on the west side
+W2 has made it from the east to the west <-
+W2 has finished all of its tasks and is now napping
+E0 is crossing from the west to the east --->
+W9 is done foraging on the east side
+E0 has made it from the west to the east ->
+E0 has finished all of its tasks and is now napping
+E8 is crossing from the east to the west <---
+E11 is crossing from the east to the west <---
+E8 has made it from the east to the west <-
+E8 is foraging on the west side
+E11 has made it from the east to the west <-
+E11 is foraging on the west side
+W0 is crossing from the west to the east --->
+W0 has made it from the west to the east ->
+W0 is foraging on the east side
+W6 is crossing from the west to the east --->
+W6 has made it from the west to the east ->
+W6 is foraging on the east side
+E12 is crossing from the east to the west <---
+E11 is done foraging on the west side
+E8 is done foraging on the west side
+E12 has made it from the east to the west <-
+E12 is foraging on the west side
+W1 is crossing from the west to the east --->
+W1 has made it from the west to the east ->
+W1 is foraging on the east side
+E9 is crossing from the west to the east --->
+E9 has made it from the west to the east ->
+E9 has finished all of its tasks and is now napping
+W10 is crossing from the east to the west <---
+E17 is crossing from the east to the west <---
+W0 is done foraging on the east side
+E17 has made it from the east to the west <-
+E17 is foraging on the west side
+W10 has made it from the east to the west <-
+W10 has finished all of its tasks and is now napping
+E20 is crossing from the west to the east --->
+E20 has made it from the west to the east ->
+E20 has finished all of its tasks and is now napping
+E4 is crossing from the west to the east --->
+W6 is done foraging on the east side
+E12 is done foraging on the west side
+E4 has made it from the west to the east ->
+E4 has finished all of its tasks and is now napping
+E2 is crossing from the west to the east --->
+E2 has made it from the west to the east ->
+E2 has finished all of its tasks and is now napping
+E10 is crossing from the west to the east --->
+E10 has made it from the west to the east ->
+E10 has finished all of its tasks and is now napping
+W7 is crossing from the east to the west <---
+W7 has made it from the east to the west <-
+W7 has finished all of its tasks and is now napping
+E11 is crossing from the west to the east --->
+W1 is done foraging on the east side
+E11 has made it from the west to the east ->
+E11 has finished all of its tasks and is now napping
+W4 is crossing from the west to the east --->
+E17 is done foraging on the west side
+W4 has made it from the west to the east ->
+W4 is foraging on the east side
+W4 is done foraging on the east side
+W0 is crossing from the east to the west <---
+W0 has made it from the east to the west <-
+W0 has finished all of its tasks and is now napping
+E8 is crossing from the west to the east --->
+E8 has made it from the west to the east ->
+E8 has finished all of its tasks and is now napping
+W1 is crossing from the east to the west <---
+W6 is crossing from the east to the west <---
+W9 is crossing from the east to the west <---
+W6 has made it from the east to the west <-
+W6 has finished all of its tasks and is now napping
+W9 has made it from the east to the west <-
+W9 has finished all of its tasks and is now napping
+W1 has made it from the east to the west <-
+W1 has finished all of its tasks and is now napping
+E12 is crossing from the west to the east --->
+E12 has made it from the west to the east ->
+E12 has finished all of its tasks and is now napping
+W5 is crossing from the west to the east --->
+W5 has made it from the west to the east ->
+W5 is foraging on the east side
+W5 is done foraging on the east side
+E17 is crossing from the west to the east --->
+E17 has made it from the west to the east ->
+E17 has finished all of its tasks and is now napping
+E13 is crossing from the east to the west <---
+W4 is crossing from the east to the west <---
+W4 has made it from the east to the west <-
+W4 has finished all of its tasks and is now napping
+E13 has made it from the east to the west <-
+E13 is foraging on the west side
+E16 is crossing from the west to the east --->
+E13 is done foraging on the west side
+E16 has made it from the west to the east ->
+E16 has finished all of its tasks and is now napping
+E13 is crossing from the west to the east --->
+E13 has made it from the west to the east ->
+E13 has finished all of its tasks and is now napping
+W5 is crossing from the east to the west <---
+W5 has made it from the east to the west <-
+W5 has finished all of its tasks and is now napping
